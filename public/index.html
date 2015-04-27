@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="kr">
+<head>
+  <meta charset="utf-8">
+
+  <title>고승훈의 포트폴리오</title>
+  <meta name="description" content="저는 풀스텍 엔지니어입니다.">
+  <meta name="author" content="고승훈">
+  <meta name="keywords" content="고승훈, 포트폴리오, 한국, 풀스택, 풀스텍, MEAN">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/webfonts.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="preloader">
+      
+    </div>
+    <canvas id="bkgd" width=900 height=600>
+    </canvas>
+    <header>
+      
+      <h1>
+        <img src="img/skoPic.png" alt="고승훈 사진" width="73" height="73" />
+      </h1>
+      <nav id="nav">
+        <ul>
+          <li id="nav_projects" class="active">
+            <a href="?page=projects">작품(Portfolio)</a>
+          </li>
+          <li id="nav_about">
+            <a href="?page=about">승훈이란? (About me)</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div id="fxToggle">
+        <a href="#">fx enabled</a>
+      </div>
+      <hr>
+      
+    </header>
+    <section id="works">
+      <ul id="projects">
+        <li>
+          <a class="projectPreview" href="#" id="link_midup">
+            <img class="projectThumbnail" src="img/midupMain.png" width="200" height="200" alt="midup">
+            <span class="projectDetails">어디서만나지? (Midup)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_mytunes">
+            <img class="projectThumbnail" src="img/pro1.jpg" width="200" height="199" alt="mytunes">
+            <span class="projectDetails">음악플래이어 (my tunes)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_watchout">
+            <img class="projectThumbnail" src="img/pro2.jpg" width="200" height="200" alt="watchout">
+            <span class="projectDetails">운석피하기 (watchout)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_chatterbox">
+            <img class="projectThumbnail" src="img/pro3.jpg" width="200" height="199" alt="chatterbox" />
+            <span class="projectDetails">채팅박스 (chatter box)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_shortly">
+            <img class="projectThumbnail" src="img/pro4.jpg" width="200" height="200" alt="shortly">
+            <span class="projectDetails">간단 주소 (URL shortener)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_gitinsight">
+            <img class="projectThumbnail" src="img/gitInsightsMain.png" width="200" height="200" alt="gitinsight">
+            <span class="projectDetails">깃 인사이트 (git insight)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_iupet">
+            <img class="projectThumbnail" src="img/iupet_main.png" width="200" height="200" alt="iupet">
+            <span class="projectDetails">동물 입양 사이트 (iupet)</span>
+          </a>
+        </li>
+        <li>
+          <a class="projectPreview" href="#" id="link_weldmart">
+            <img class="projectThumbnail" src="img/hantoMain.png" width="200" height="200" alt="weldmart">
+            <span class="projectDetails">
+              웹표준, 접근성, IE호환성.
+            </span>
+          </a>
+        </li>
+<!--        Back button -->
+        <li>
+          <a href="#" id="backLink">
+            <img id="backImg" src="img/backArrow.png" alt="back" width="200" height="200">
+          </a>
+        </li>
+        
+      </ul>
+      
+      <a href="#" id="upLink" onclick="javascript:scroll(0,0);">
+        <img id="upImg" src="img/upArrow.png" alt="up" width="200" height="200">
+      </a>
+      
+    </section>
+    <section id="screens">
+      <ul>
+        
+        <li id="project_midup">
+          <p class="projectTitle">
+            Mid Up
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong>MongoDB, ExpressJS, AungularJS, Node.js(MEAN stack), Socket.io, Google maps API, Oauth, Passport, Jenkins, Grunt, Bower.
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            친구여럿과 함깨 어디서 만날지 정하는 애플리케이션 입니다. Socket.io를 사용하여 여러명이서 동시에 채팅과 현제 장소를 공유하면 서로에게 가장 가까운 중간 지역이 계산됩니다. 구글맵에서 GUI를 사용하여 서치원의 크기를 조절가능합니다. Facebook, Twitter, Google+ 또는 이메일로 회원가입가능. MongDB로 데이터배이스 구현. Jenkins와 Github을 사용하여 Continuous Deployment구현.
+            
+          </p>
+          <p class="project_p">
+            <a href='http://miduphr.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <a href="http://miduphr.cloudapp.net" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/midup.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a> 
+        </li>
+        
+        <li id="project_mytunes">
+          <p class="projectTitle">
+            My Tunes
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong>Backbone.js, HTML audio, Express/Node, Grunt, Bower.
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            MVC프레임워크를 사용하여 뮤직플래이어를 만들었습니다. 현제 듣고 있는 음악과 다음에 들을 음악들을 한눈에 볼수있습니다. 반응형 디자인으로 모바일폰과 태이블렛 그리고 데스크탑에서 사용 가능합니다. 작업하면서 들을수 있는 잔잔한 음악들만 넣어 놓았으며, 1주마다 음악 업데이트 하려고 "노력"중입니다.
+          </p>
+          <p class="project_p">
+            <a href='http://mytunes_sko.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <img class="project_image" src="img/pro1.jpg" width="800" height="600" alt="screenshot">
+          <img class="project_image" src="" width="800" height="600" alt="screenshot">
+          <img class="project_image" src="" width="800" height="600" alt="screenshot">
+        </li>
+        
+        <li id="project_watchout">
+          <p class="projectTitle">
+            Watchout
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> D3.js, SVG, Express/Node, Grunt, Bower
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            D3라이브러리를 이용하여 SVG의 모양 및 에니매이션을 구현하였고 Collision Detection을 사용하여 아주 간단한 게임을 만들어 보았습니다. Animation Frame을 SetInterval이 아닌 D3 timer를 이용하여 부드러운 애니메이션을 구현하였습니다.
+          </p>
+          <p class="project_p">
+            <a href='http://watchout_sko.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+        </li>
+        
+        <li id="project_chatterbox">
+          <p class="projectTitle">
+            Chatter Box
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> jQuery, Express/Node, Grunt, Bower
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            jQuery만을 사용하여 Plug-in 없이 구현한 체팅 플랫폼입니다. 백엔드에서 CORS를 사용하여 Cross-domain request를 가능하게 하였습니다. 데이터 배이스로는 MongoDB를 사용하였습니다다.
+          </p>
+          <p class="project_p">
+            <a href='http://chatterbox_sko.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+        </li>
+        
+        <li id="project_shortly">
+          <p class="projectTitle">
+            URL shortener
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> Angular, Express/node, Crypto, bcrypt, q, Grunt, Bower
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            http://goo.gl/ 또는 tinyurl과 같이 긴 URL을 짧게 만들어주는 웹사이트 입니다. Angular를 사용하였고 Promise Library인 q도 사용해 보았습니다. Authentication으로는 Crypto와 bcrypt를 사용하였고, 데이터 배이스로는 MongoDB를 사용하였습니다.
+          </p>
+          <p class="project_p">
+            <a href='http://shortly_sko.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+        </li>
+        
+        <li id="project_gitinsight">
+          <p class="projectTitle">
+            Git Insight
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> Angular, D3, nvd3, Express/node, GitHub API, Firebae
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            GitHub을 이용하여 사용자가 어떤 렝규지를 사용하며, 최근 1년동안 얼마나 많은 활동을 했는지 D3를 사용하여 그레프로 보여주는 싸이트 입니다. Angular를 사용하였으며 Oauth로는 Firebase를 사용하였습니다.
+          </p>
+          <p class="project_p">
+            <a href='http://gitinsights.herokuapp.com/' target="_blank">(바로가기)</a>
+          </p>
+         
+          <a href="http://gitinsights.herokuapp.com" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/gitInsights.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a>
+        </li>
+        
+        <li id="project_iupet">
+          <p class="projectTitle">
+            동물 입양 사이트 (iupet)
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> jQuery, jQuery plug-ins, Express/node, Grunt.
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            동물입양사이트를 여러 jQuery Plug-in을 가지고 구현하였습니다. 프론트엔드에서 디자이너가 만들은 PSD를 가지고 HTML, CSS를 코딩하였으며 jQuery 플러그인을 검색 사용하였습니다. tumblr의 슬라이드와, Vingle의 떠다니는 구름을 구현하였습니다. 저의 첫번째 작품으로 틈틈이 리팩토를 할 계획입니다.
+          </p>
+          <p class="project_p">
+            <a href='http://iupet.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          
+          <a href="http://iupet.cloudapp.net" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/iupet2.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a>
+          
+        </li>
+        <li id="project_weldmart">
+          <p class="projectTitle">
+            웹표준, 접근성, IE호환성.
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> HTML5, CSS3, Express/Node, Grunt.
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            각종 폴리필을 사용하여 IE8에서 아무이상없이 보이도록 CSS Media Query, CSS Reset, Background-size cover, ES5, placeholder 등을 사용/가능하게 하였고, 반응형 폰트사이즈와, 반응형 및 프루이드 레이아웃을 구현하였습니다. 또한 줌인 줌아웃을 하더라도 레이아웃이 흐트러지지 않도록 코딩하였으며 웹표준을 준수하여 W3C Validator를 통과하도록 하였습니다. 가장작은 핸드폰(iPhone4)부터 데스크탑까지 흐트름 없는 레이아웃이 돋보이는 프로젝트입니다.
+          </p>
+          <p class="project_p">
+            <a href='http://hanto.cloudapp.net' target="_blank">(바로가기)</a>
+          </p>
+          <a href="http://hanto.cloudapp.net" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/hanto2.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="about">
+      <img id="me" src="" width="214" height="214" alt="me" />
+      <p id="hi">Hi!</p>
+      <p id="aboutme_p">
+        I'm Mickaël Larchevêque and I'm a <strong>Creative Lead</strong>.
+        <br><br>
+        After being graduated from the Gobelins School as a Multimedia Designer/Director, I joined Electronlibre, a kick ass swiss agency based in Lausanne. Working with a lot of different clients, building planty of awesome projects and having fun with hundreds of experimentations.
+        <br><br>
+        I like getting <strong>inspiration</strong> from anything, using it to bring a <strong>concept</strong> to life and working with great people to create unique <strong>experiences</strong>.<br>Did I already said that I like to <strong>work and share with great people</strong> ?
+        <br><br>
+        My job is about <strong>listening, thinking, creating, sharing and learning</strong>.<br>And I love that.
+        <br><br>
+        <span id="hireme">I'm currently looking for a fulltime job.</span>
+        <small>
+          <a href="http://www.linkedin.com/profile/view?id=30421331#recommendations" id="link_reco" target="_blank" onClick="recordOutboundLink(this, 'About links', 'to recommendations');return false;">recommendations</a>
+        </small>
+      </p>
+      <ul id="contacts">
+        <li>
+          <hr>
+        </li>
+        <li>
+          <a href="mailto:mick.larch@gmail.com" id="link_email" class="contact_link" title="mail" target="_blank" onClick="recordOutboundLink(this, 'About links', 'to mail');return false;">mick.larch@gmail.com</a>
+        </li>
+        <li>
+          <a href="mick.larch_en.pdf" id="link_resume_en" class="contact_link" title="english cv" target="_blank" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/en']);">download my cv</a>
+        </li>
+        <li>
+          <hr>
+        </li>
+        <li>
+          <a href="http://twitter.com/dotmick" id="link_twitter" class="contact_link" title="twitter" target="_blank" onClick="recordOutboundLink(this, 'About links', 'to twitter');return false;">twitter</a>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/dotmick" id="link_fb" class="contact_link" title="facebook profile" target="_blank" onClick="recordOutboundLink(this, 'About links', 'to facebook');return false;">facebook</a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/in/dotmick" id="link_linkedin" class="contact_link" title="linkedin profile" target="_blank" onClick="recordOutboundLink(this, 'About links', 'to linkedin');return false;">linkedin</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+    </footer>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/jquery.easing.1.3.js"></script>
+    <script src="js/libs/spin.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    function recordOutboundLink(link){
+      setTimeout('document.location = "' + link.href + '"', 100);
+    }
+    </script>
+  
+</body>
+</html>
