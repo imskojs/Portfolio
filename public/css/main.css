@@ -1,5 +1,5 @@
 html {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     font-style: italic;
     padding: 0;
     color: #353535;
@@ -39,7 +39,7 @@ strong {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+    font-family: 'Nanum Gothic', serif;
     font-size: 11pt;
     font-style: italic
 }
@@ -55,13 +55,13 @@ a,a:link,a:visited,a:active,a:hover {
 }
 
 #nav a,#nav a:link,#nav a:visited,section#about a,section#about a:link,section#about a:visited {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+    font-family: 'Nanum Gothic', serif;
     color: #353535;
     text-decoration: none
 }
 
 #nav a:hover,section#about a:hover {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     color: #353535;
     border-bottom: 1px solid gray
 }
@@ -214,7 +214,7 @@ section#screens ul li img:first-of-type {
 }
 
 .projectDetails {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     text-transform: lowercase;
     display: block;
     text-align: center;
@@ -222,14 +222,14 @@ section#screens ul li img:first-of-type {
 }
 
 .projectTitle {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     font-size: 30pt;
     margin-top: 0;
     margin-bottom: 18px
 }
 
 .projectTags {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     font-style: italic;
     font-size: 11pt;
     color: #353535;
@@ -253,7 +253,7 @@ small a:hover {
 p.project_p {
     font-style: italic;
     font-weight: lighter;
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     font-style: italic;
     color: #353535;
     margin-top: 0;
@@ -281,7 +281,7 @@ section#about img {
 }
 
 section#about p#hi {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+  font-family: 'Nanum Gothic', serif;
     font-size: 30pt;
     margin-top: 70px;
     margin-bottom: 0
@@ -291,7 +291,7 @@ section#about p#aboutme_p {
     height: 400px;
     margin-top: 4px;
     color: #353535;
-    font: italic 11pt/14.5pt Didot,'DidotLTStdRoman','Times New Roman',Times,serif
+    font: italic 11pt/14.5pt 'Nanum Gothic', serif;
 }
 
 section#about p#aboutme_p span#hireme {
@@ -303,7 +303,7 @@ section#about p#aboutme_p span#hireme {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+    font-family: 'Nanum Gothic', serif;
     font-size: 11pt;
     font-style: italic
 }
@@ -317,7 +317,7 @@ section#about ul#contacts {
 }
 
 section#about ul#contacts li {
-    font-family: Didot,'DidotLTStdRoman','Times New Roman',Times,serif;
+    font-family: 'Nanum Gothic', serif;
     text-align: center;
     margin-bottom: 2px
 }
@@ -371,6 +371,10 @@ section#about ul#contacts li hr {
 }
 
 .project_p {
+  width: 480px;
+  padding-top: 10px;
+}
+.projectTags {
   width: 480px;
 }
   

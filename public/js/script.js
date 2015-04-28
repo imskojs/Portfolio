@@ -20,14 +20,14 @@ var prevMouseX, prevMouseY;
 var prevScroll = 0;
 var page = "home";
 $(document).ready(function() {
-    jQuery.extend(jQuery.browser, {SafariMobile: navigator.userAgent.toLowerCase().match(/iP(hone|ad|od)/i)});
-    jQuery.extend(jQuery.browser, {iPhone: navigator.userAgent.toLowerCase().match(/iPhone/i)});
-    if ($.browser.SafariMobile) {
-        toggleFx()
-    }
-    if ($.browser.SafariMobile) {
-        $("html").attr("class", "iphone")
-    }
+//    jQuery.extend(jQuery.browser, {SafariMobile: navigator.userAgent.toLowerCase().match(/iP(hone|ad|od)/i)});
+//    jQuery.extend(jQuery.browser, {iPhone: navigator.userAgent.toLowerCase().match(/iPhone/i)});
+//    if ($.browser.SafariMobile) {
+//        toggleFx()
+//    }
+//    if ($.browser.SafariMobile) {
+//        $("html").attr("class", "iphone")
+//    }
     $("div#preloader").css("height", $(document).height());
     $.fn.spin = function(d) {
         this.each(function() {
@@ -186,6 +186,7 @@ $(window).load(function() {
             })
         })
     }
+    spinner.stop();
     $(window).scroll(function() {
         overThumb = false;
         a()
@@ -223,13 +224,13 @@ $(window).load(function() {
     $("#nav #nav_projects a").attr("href", "#");
     $("#nav #nav_projects a").click(b);
     function m() {
-        if (jQuery.browser.mozilla && jQuery.browser.version.slice(0, 3) == "1.9") {
-            $(".projectThumbnail").each(function(n) {
-                $(this).css("background-image", "url(" + $(this).attr("src") + ")");
-                $(this).attr("src", "");
-                $(this).attr("alt", "")
-            })
-        }
+//        if (jQuery.browser.mozilla && jQuery.browser.version.slice(0, 3) == "1.9") {
+//            $(".projectThumbnail").each(function(n) {
+//                $(this).css("background-image", "url(" + $(this).attr("src") + ")");
+//                $(this).attr("src", "");
+//                $(this).attr("alt", "")
+//            })
+//        }
         $("html").css("display", "block");
         canvas = document.getElementById("bkgd");
         if (canvas != undefined) {
@@ -237,9 +238,9 @@ $(window).load(function() {
             e()
         }
     }
-    spinner.stop();
+//    spinner.stop();
     m();
-    $("div#preloader").animate({opacity: 0}, 2400, "linear", function() {
+    $("div#preloader").animate({opacity: 0}, 400, "linear", function() {
         $("div#preloader").css("display", "none");
         $("html").css("overflow-y", "auto");
         if (canvas != undefined) {
@@ -273,7 +274,7 @@ $(window).load(function() {
         clearTimeout(timeout);
         timeout = setTimeout(function() {
             stopped = true
-        }, 3000)
+        }, 1000)
     }
     function h() {
         particles = [];

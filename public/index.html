@@ -40,9 +40,11 @@
         </ul>
       </nav>
       
+<!--
       <div id="fxToggle">
         <a href="#">fx enabled</a>
       </div>
+-->
       <hr>
       
     </header>
@@ -55,6 +57,12 @@
           </a>
         </li>
         <li>
+          <a class="projectPreview" href="#" id="link_blog">
+            <img class="projectThumbnail" src="img/blogMain.png" width="200" height="199" alt="blog">
+            <span class="projectDetails">블로그 (Blog)</span>
+          </a>
+        </li>
+        <li>
           <a class="projectPreview" href="#" id="link_mytunes">
             <img class="projectThumbnail" src="img/pro1.jpg" width="200" height="199" alt="mytunes">
             <span class="projectDetails">음악플래이어 (my tunes)</span>
@@ -62,7 +70,7 @@
         </li>
         <li>
           <a class="projectPreview" href="#" id="link_watchout">
-            <img class="projectThumbnail" src="img/pro2.jpg" width="200" height="200" alt="watchout">
+            <img class="projectThumbnail" src="img/watchoutMain.png" width="200" height="200" alt="watchout">
             <span class="projectDetails">운석피하기 (watchout)</span>
           </a>
         </li>
@@ -124,7 +132,7 @@
           </p>
           <p class="project_p">
             <strong> Description : </strong>
-            친구여럿과 함깨 어디서 만날지 정하는 애플리케이션 입니다. Socket.io를 사용하여 여러명이서 동시에 채팅과 현제 장소를 공유하면 서로에게 가장 가까운 중간 지역이 계산됩니다. 구글맵에서 GUI를 사용하여 서치원의 크기를 조절가능합니다. Facebook, Twitter, Google+ 또는 이메일로 회원가입가능. MongDB로 데이터배이스 구현. Jenkins와 Github을 사용하여 Continuous Deployment구현.
+            친구여럿과 함깨 어디서 만날지 정하는 애플리케이션 입니다. Socket.io를 사용하여 여러명이서 동시에 채팅과 현제 장소를 공유하면 서로에게 가장 가까운 중간 지역이 계산됩니다. 구글맵에서 GUI를 사용하여 서치원의 크기를 조절가능합니다. Facebook, Twitter, Google+ 또는 이메일로 회원가입가능며, MongDB로 데이터배이스 구현. Jenkins와 Github을 사용하여 Continuous Deployment (GitHub에 push하면 서버가 자동 업데이트됨)구현 하였습니다.
             
           </p>
           <p class="project_p">
@@ -138,6 +146,33 @@
                   <span></span>
               </div>
               <img class="project_image" src="img/midup.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a> 
+        </li>
+
+        <li id="project_blog">
+          <p class="projectTitle">
+            블로그
+          </p>
+          <p class="projectTags">
+            <strong> Frameworks : </strong> Ghost.io, MarkDown.
+          </p>
+          <p class="project_p">
+            <strong> Description : </strong>
+            JavaScript 공부를 하며 꾸준히 노트를 적어놓은 블로그 입니다. 체팅창도 있어 궁금한점이 있으면 바로 이야기할수있습니다. Ghost.io는 JavaScript만으로 백엔드와 프론트엔드 그리고 디비까지 전부 구성하였으며 WordPress보다 안전하고 빠른 성능을 자랑하며 현제 베타이지만 앞으로 성장할것을 바라볼만합니다. 또한 에디터도 마크다운으로 글을 효율적으로 쓸수있습니다. Ghost의 잠재력을 미리봐온저는 Ghostdevs.com이라는 도메인을 현제 가지고있으며 약 2년 이네로 WordPress만큼 커질것을 확신하여 현제 틈틈히 공부중에 있습니다. 
+            
+          </p>
+          <p class="project_p">
+            <a href='http://www.sublimejs.com' target="_blank">(바로가기)</a>
+          </p>
+          <a href="http://www.sublimejs.com" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/blog.gif" width="480" height="300" alt="iupet gif" />
             </div> 
           </a> 
         </li>
@@ -173,12 +208,18 @@
             D3라이브러리를 이용하여 SVG의 모양 및 에니매이션을 구현하였고 Collision Detection을 사용하여 아주 간단한 게임을 만들어 보았습니다. Animation Frame을 SetInterval이 아닌 D3 timer를 이용하여 부드러운 애니메이션을 구현하였습니다.
           </p>
           <p class="project_p">
-            <a href='http://watchout_sko.cloudapp.net' target="_blank">(바로가기)</a>
+            <a href='http://watchoutko.cloudapp.net' target="_blank">(바로가기)</a>
           </p>
-          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
-          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
-          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
-          <img class="project_image" src="" width="800" height="600" alt="screenshot" />
+         <a href="http://watchoutko.cloudapp.net" target="_blank">
+            <div class="fake-browser-ui">
+              <div class="frame">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <img class="project_image" src="img/watchout.gif" width="480" height="300" alt="iupet gif" />
+            </div> 
+          </a> 
         </li>
         
         <li id="project_chatterbox">
@@ -345,13 +386,13 @@
     <footer>
     </footer>
 
-    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/jq.min.js"></script>
     <script src="js/libs/jquery.easing.1.3.js"></script>
     <script src="js/libs/spin.min.js"></script>
     <script src="js/script.js"></script>
     <script>
     function recordOutboundLink(link){
-      setTimeout('document.location = "' + link.href + '"', 100);
+      setTimeout('document.location = "' + link.href + '"', 0);
     }
     </script>
   
